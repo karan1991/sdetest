@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 168.088 sec <<< FAILURE! - in TestSuite
+fmcg(SDWeb)  Time elapsed: 42.44 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 30 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (678e0965-af39-4e6e-9a20-ebe4f5321d80)] -> id: add-cart-button-id]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'L-8YSWH32', ip: '10.20.73.106', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 678e0965-af39-4e6e-9a20-ebe4f5321d80
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+	at SDWeb.fmcg(SDWeb.java:168)
+
+changeaddress(SDWeb)  Time elapsed: 42.877 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 30 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='addr2Info']/span'
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'L-8YSWH32', ip: '10.20.73.106', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 678e0965-af39-4e6e-9a20-ebe4f5321d80
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+	at SDWeb.changeaddress(SDWeb.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"xpath","selector":"//*[@id='addr2Info']/span"}
+Command duration or timeout: 58 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'L-8YSWH32', ip: '10.20.73.106', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//*[@id='addr2Info']/span}
+Session ID: 678e0965-af39-4e6e-9a20-ebe4f5321d80
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+	at SDWeb.changeaddress(SDWeb.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"xpath","selector":"//*[@id='addr2Info']/span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'L-8YSWH32', ip: '10.20.73.106', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+

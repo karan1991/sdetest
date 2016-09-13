@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Custom suite" duration-ms="26807" started-at="2016-09-04T14:10:57Z" finished-at="2016-09-04T14:11:24Z">
+    <groups>
+    </groups>
+    <test name="SDETAutomationAssignment" duration-ms="26807" started-at="2016-09-04T14:10:57Z" finished-at="2016-09-04T14:11:24Z">
+      <class name="SDWeb">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:SDWeb@283dc831]" name="beforeclass" is-config="true" duration-ms="15337" started-at="2016-09-04T19:40:57Z" finished-at="2016-09-04T19:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="buyflow()[pri:0, instance:SDWeb@283dc831]" name="buyflow" duration-ms="3" started-at="2016-09-04T19:41:13Z" finished-at="2016-09-04T19:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyflow -->
+        <test-method status="PASS" signature="changeaddress()[pri:0, instance:SDWeb@283dc831]" name="changeaddress" duration-ms="7024" started-at="2016-09-04T19:41:13Z" finished-at="2016-09-04T19:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeaddress -->
+        <test-method status="PASS" signature="sdgold()[pri:0, instance:SDWeb@283dc831]" name="sdgold" duration-ms="1" started-at="2016-09-04T19:41:20Z" finished-at="2016-09-04T19:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sdgold -->
+        <test-method status="PASS" signature="bundle()[pri:0, instance:SDWeb@283dc831]" name="bundle" duration-ms="0" started-at="2016-09-04T19:41:20Z" finished-at="2016-09-04T19:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bundle -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:SDWeb@283dc831]" name="afterclass" is-config="true" duration-ms="4426" started-at="2016-09-04T19:41:20Z" finished-at="2016-09-04T19:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:SDWeb@283dc831]" name="afterSuite" is-config="true" duration-ms="806" started-at="2016-09-04T19:41:24Z" finished-at="2016-09-04T19:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- SDWeb -->
+    </test> <!-- SDETAutomationAssignment -->
+  </suite> <!-- Custom suite -->
+</testng-results>
